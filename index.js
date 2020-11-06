@@ -51,6 +51,6 @@ const arrayOfLetters = Array.from(word1);
 const arrayOfLetters2 = Array.from(word2);
 const arrayOfLetters3 = Array.from(word3)
 
-/* resultsWordPlay(arrayOfLetters);
-resultsWordPlay(arrayOfLetters2); */
+resultsWordPlay(arrayOfLetters);
+resultsWordPlay(arrayOfLetters2);
 resultsWordPlay(arrayOfLetters3);
