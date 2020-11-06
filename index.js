@@ -15,7 +15,6 @@ let knowTheSameElements = (arrayWord, arrayToCompare, goodWord) => {
     let changeToStringNew = arrayToCopyItems.join('');
     if (changeToStringNew === changeToStringWord) {
         completeWords = goodWord;
-        arrayWord.forEach(element => arrayToCompare.splice(arrayToCompare.indexOf(element), 1))
     } else { completeWords = "no"; }
     return completeWords;
 }
@@ -46,12 +45,12 @@ let resultsWordPlay = (userArray) => {
 /* *********************** TESTING *********************** */
 const word1 = "cpatmkdiniarapboercpamliyarr"; //p,t,k,d
 const word2 = "aabelmutmncs";
-const word3 = "beoprdsgererazon";
+const word3 = "sgimaoa";
 
 const arrayOfLetters = Array.from(word1);
 const arrayOfLetters2 = Array.from(word2);
 const arrayOfLetters3 = Array.from(word3)
 
-resultsWordPlay(arrayOfLetters);
-resultsWordPlay(arrayOfLetters2);
+/* resultsWordPlay(arrayOfLetters);
+resultsWordPlay(arrayOfLetters2); */
 resultsWordPlay(arrayOfLetters3);
